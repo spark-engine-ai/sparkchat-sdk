@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Box, ScrollArea, Title, Text, Anchor, Center, Image, Flex } from '@mantine/core';
 import { ChatInput } from './input';
 import { Message } from './message';
-import styles from '../styles/Chatbot.module.css';
+import styles from '../styles/chatbot.module.css';
 
 const API_URL = "/api/chat";
 // Replace with your own Spark Engine project ID
