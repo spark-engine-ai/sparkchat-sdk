@@ -1,0 +1,16 @@
+/* styles/message.module.css */
+.userMessage {
+    text-align: right;
+    height:100%;
+    padding:16px;
+    margin-bottom: 8px;
+  }
+  
+  .botMessage {
+    text-align: left;
+    margin-bottom: 8px;
+    height:100%;
+    padding:16px;
+    background-color:rgba(160,160,160,0.1);
+  }
+  

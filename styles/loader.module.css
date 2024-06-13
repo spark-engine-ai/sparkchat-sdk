@@ -1,0 +1,27 @@
+.loader {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    left: 12;
+    top: 12;
+    background-color: black;
+    animation: pulse 1s infinite;
+    margin-top: 4px;
+    margin-left:5px;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

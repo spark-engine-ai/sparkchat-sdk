@@ -1,0 +1,15 @@
+/* styles/Navbar.module.css */
+.navbar {
+    background-color: white;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  

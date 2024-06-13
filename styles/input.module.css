@@ -1,0 +1,12 @@
+/* styles/ChatInput.module.css */
+.chatInput {
+    margin-top: 16px;
+    width:100%;
+    max-width:600px;
+    margin:auto;
+  }
+  
+  .input {
+    flex: 1;
+  }
+  
