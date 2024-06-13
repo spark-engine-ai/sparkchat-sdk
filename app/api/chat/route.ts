@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const API_URL = "https://run.sparkengine.ai/api/engine/completion";
+const API_URL = "https://sparkengine.ai/api/engine/completion";
 
 export async function POST(req: NextRequest) {
   try {
