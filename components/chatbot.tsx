@@ -6,7 +6,7 @@ import styles from '../styles/chatbot.module.css';
 
 const API_URL = "/api/chat";
 // Replace with your own Spark Engine project ID
-const SPARKENGINE_PROJECT_ID = '3ad3412b-34e4-477e-a0eb-0f170960b7ae';
+const SPARKENGINE_PROJECT_ID = '362bc660-dd60-4b89-9ab7-79560cdece73';
 
 interface MessageType {
   message: string;
