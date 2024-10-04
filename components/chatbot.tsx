@@ -6,7 +6,7 @@ import styles from '../styles/chatbot.module.css';
 
 const API_URL = "/api/chat";
 // Replace with your own Spark Engine project ID
-const SPARKENGINE_PROJECT_ID = 'e00c0fa4-a369-4268-9d17-d8542b6e57b2';
+const SPARKENGINE_PROJECT_ID = 'adbfd15b-1499-4a7a-8cdc-416e8630c33c';
 
 interface MessageType {
   message: string;
@@ -33,6 +33,7 @@ export const Chatbot: React.FC = () => {
       }
 
       const data = await response.json();
+      console.log(data)
       return data.data[0].output;
     } catch (error) {
       console.error("Error fetching the API response.", error);

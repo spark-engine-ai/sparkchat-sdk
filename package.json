@@ -19,7 +19,8 @@
     "react-dom": "18.2.0",
     "react-markdown": "^8.0.5",
     "react-syntax-highlighter": "^15.5.0",
-    "remark-gfm": "^3.0.1"
+    "remark-gfm": "^3.0.1",
+    "sparkengine": "^1.0.58"
   },
   "devDependencies": {
     "@types/node": "20.11.26",
